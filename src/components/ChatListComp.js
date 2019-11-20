@@ -7,7 +7,7 @@ const {width} = Dimensions.get('window');
 export default class ChatList extends Component {
   render() {
     return (
-      <Card cardStyle={styles.cardStyle}>
+      <Card onPress={this.props.onPress} cardStyle={styles.cardStyle}>
         <Image
           style={styles.imageStyle}
           source={{

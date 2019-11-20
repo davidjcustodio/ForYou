@@ -1,0 +1,37 @@
+dependencies: \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/node_modules/react-native/Libraries/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec-generated.mm \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Target\ Support\ Files/FBReactNativeSpec/FBReactNativeSpec-prefix.pch \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/node_modules/react-native/Libraries/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/RCTRequired/RCTRequired/RCTRequired.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTConvertHelpers.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Folly/folly/Optional.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Folly/folly/Portability.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Folly/folly/portability/Config.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Folly/folly/CPortability.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Folly/folly/Traits.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Folly/folly/Utility.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Folly/folly/lang/Exception.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Folly/folly/CppAttributes.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTTypedModuleConstants.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTInspectorDevServerHelper.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTPackagerConnection.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTCxxConvert.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTManagedPointer.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/ReactCommon/ReactCommon/RCTTurboModule.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTModuleMethod.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTBridgeMethod.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTNullability.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/ReactCommon/ReactCommon/JSCallInvoker.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/ReactCommon/ReactCommon/TurboModule.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-jsi/jsi/jsi.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-jsi/jsi/jsi-inl.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-cxxreact/cxxreact/MessageQueueThread.h

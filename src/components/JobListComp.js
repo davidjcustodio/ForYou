@@ -1,9 +1,14 @@
 import React, {Component} from 'react';
-import {View, Image, StyleSheet, Dimensions} from 'react-native';
+import {
+  View,
+  Image,
+  StyleSheet,
+  Dimensions,
+  TouchableOpacity,
+} from 'react-native';
 import Card from './Card';
 import Label from './Label';
 import {Color} from '../utils/color';
-import {TouchableOpacity} from 'react-native-gesture-handler';
 const {width} = Dimensions.get('window');
 
 export default class JobListComp extends Component {

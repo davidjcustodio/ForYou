@@ -71,7 +71,7 @@ export default class Search extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <CustomNavigation isSideMenu={true} title="Search" />
+        <CustomNavigation {...this.props} isSideMenu={true} title="Search" />
         <SearchBox
           onChangeText={text => {
             console.log('Text', text);

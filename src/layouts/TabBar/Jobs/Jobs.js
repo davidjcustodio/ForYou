@@ -35,7 +35,8 @@ export default class Jobs extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <CustomNavigation isSideMenu={true} title="Jobs" />
+        <CustomNavigation {...this.props} isSideMenu={true} title="Jobs" />
+
         <SegmentControl
           values={['Offers', 'Notifications']}
           onChange={currentIndex => {}}

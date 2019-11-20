@@ -12,7 +12,7 @@ export default class TopRatedInfluencers extends Component {
   render() {
     // const {item} = this.props.item;
     return (
-      <Card cardStyle={styles.itemContainer}>
+      <Card onPress={this.props.onPress} cardStyle={styles.itemContainer}>
         <Image
           style={styles.userImage}
           source={{

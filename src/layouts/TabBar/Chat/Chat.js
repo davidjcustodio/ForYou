@@ -14,6 +14,7 @@ export default class Chat extends Component {
   renderItem = ({item}) => {
     return (
       <ChatListComp
+        onPress={() => this.props.navigation.navigate('ChatDetails')}
         message={'Hey whatsapp Steve!!.....'}
         name={'Andrew Glover'}
         time="2h ago"
@@ -24,7 +25,7 @@ export default class Chat extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <CustomNavigation isSideMenu={true} title="Chat" />
+        <CustomNavigation {...this.props} isSideMenu={true} title="Chat" />
         <FlatList
           style={styles.listStyle}
           data={['1', '2', '3', '4']}

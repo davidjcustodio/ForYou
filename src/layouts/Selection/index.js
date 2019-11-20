@@ -5,7 +5,6 @@ import {Color} from '../../utils/color';
 import CustomNavigation from '../../components/CustomNavigation';
 import {fontX35} from './../../utils/theme';
 import Card from '../../components/Card';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const {width, height} = Dimensions.get('window');
 
@@ -33,7 +32,8 @@ export default class index extends Component {
           <Card
             onPress={() => {
               console.log('onPress');
-              this.props.navigation.navigate('Home');
+              global.selected = 'Influencer';
+              this.props.navigation.navigate('DrawerNavInfluencer');
             }}
             cardStyle={[
               styles.subCardStyle,
@@ -54,7 +54,8 @@ export default class index extends Component {
           <Card
             onPress={() => {
               console.log('onPress');
-              this.props.navigation.navigate('Home');
+              global.selected = 'Business';
+              this.props.navigation.navigate('DrawerNavigator');
             }}
             cardStyle={[
               styles.subCardStyle,
@@ -93,7 +94,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   subCardStyle: {
-    height: (width - 40) * 0.5 - 10 + 50,
+    height: (width - 40) * 0.5 - 10 + 60,
     width: (width - 40) * 0.5 - 10,
     padding: 15,
     justifyContent: 'space-around',

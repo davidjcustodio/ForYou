@@ -15,7 +15,15 @@ const {width, height} = Dimensions.get('window');
 
 class CustomNavigation extends React.PureComponent {
   onPressClick = () => {
-    this.props.navigation.goBack();
+    console.log('====================================');
+    console.log(this.props.title);
+    console.log('====================================');
+    if (this.props.title === 'Checkout') {
+      this.props.onBackHandle();
+    } else {
+      this.props.isBack && this.props.navigation.goBack();
+    }
+    this.props.isSideMenu && this.props.navigation.openDrawer();
   };
   render() {
     return (
@@ -26,6 +34,7 @@ class CustomNavigation extends React.PureComponent {
             height: this.props.navHeight ? this.props.navHeight : HEADER_SIZE,
             backgroundColor: this.props.navBackground,
           },
+          this.props.mainStyle,
         ]}>
         <View style={styles.subView}>
           {/* Back Button and Side Menu */}
@@ -75,7 +84,9 @@ class CustomNavigation extends React.PureComponent {
 
           {/* Share and More */}
 
-          <TouchableOpacity style={styles.rightIconButton}>
+          <TouchableOpacity
+            onPress={this.props.rightClick}
+            style={styles.rightIconButton}>
             {this.props.isFilter && (
               <Image
                 style={[

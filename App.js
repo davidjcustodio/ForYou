@@ -6,7 +6,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={{alignItems: 'center', justifyContent: 'center', flex: 1}}>
-        <Label font22>"This is David"</Label>
+        <Label font22>"This is Tesing."</Label>
       </View>
     );
   }

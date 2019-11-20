@@ -78,7 +78,7 @@ export default class index extends Component {
             </Label>
           </Label>
 
-          <Label mt={20} style={styles.centerText} font14>
+          <Label mt={20} mb={20} style={styles.centerText} font14>
             By signing up or logging in, you agree to our{' '}
             <Label
               onPress={this.onTermsClick}

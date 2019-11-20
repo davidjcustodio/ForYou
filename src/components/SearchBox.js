@@ -10,7 +10,6 @@ import {
 } from 'react-native';
 import {Color} from '../utils/color';
 import {fontX17} from '../utils/theme';
-// import {TouchableOpacity} from 'react-native-gesture-handler';
 
 const {width} = Dimensions.get('window');
 

@@ -2,16 +2,19 @@ import React from 'react';
 import {TextInput, View, Dimensions, StyleSheet} from 'react-native';
 import PropTypes from 'prop-types';
 import Label from './Label';
-import {fontX17} from '../utils/theme';
+import {fontX16, fontX14} from '../utils/theme';
 import {Color} from '../utils/color';
 
-class TextField extends React.PureComponent {
+class TextField extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
   }
 
   render() {
+    console.log('====================================');
+    console.log(this.props.value);
+    console.log('====================================');
     return (
       <View
         style={[
@@ -19,18 +22,28 @@ class TextField extends React.PureComponent {
           {
             width: this.props.width,
           },
+          this.props.mainStyle,
         ]}>
-        <Label font15>{this.props.title}</Label>
+        <Label ProximaNova_Semibold font17>
+          {this.props.title}
+        </Label>
         <View style={styles.inputMainV}>
           <TextInput
             style={[
               {
                 width: this.props.width - 40,
+                fontFamily:
+                  typeof this.props.value != undefined
+                    ? 'ProximaNova-Regular'
+                    : 'ProximaNova-Regular',
+
+                fontSize:
+                  typeof this.props.value != 'undefined' ? fontX14 : fontX14,
               },
               styles.textInput,
               this.props.style,
             ]}
-            secureTextEntry={false}
+            secureTextEntry={this.state.secureTextEntry}
             returnKeyType={this.props.returnKeyType}
             maxLength={this.props.maxLength}
             value={this.props.value}
@@ -42,10 +55,12 @@ class TextField extends React.PureComponent {
             ref={this.props.refInner}
             onSubmitEditing={this.props.onSubmitEditing}
             onFocus={this.props.onFocus}
+            multiline={this.state.multiline}
             onEndEditing={this.props.onEndEditing}
             placeholder={this.props.placeholder}
           />
         </View>
+        {this.props.children}
       </View>
     );
   }
@@ -54,6 +69,7 @@ class TextField extends React.PureComponent {
 TextField.defaultProps = {
   title: '',
   width: Dimensions.get('window').width - 40,
+  multiline: false,
 };
 TextField.propTypes = {
   title: PropTypes.string,
@@ -68,21 +84,19 @@ const styles = StyleSheet.create({
     marginTop: 15,
     alignSelf: 'center',
     paddingTop: 10,
-    paddingRight: 10,
-    paddingBottom: 5,
-    paddingLeft: 10,
+    paddingRight: 0,
+    paddingLeft: 0,
     borderBottomWidth: 0.5,
-    borderBottomColor: Color.BLACK,
+    borderBottomColor: Color.TXTGRAY,
   },
   inputMainV: {
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
   textInput: {
-    fontSize: fontX17,
-    fontFamily: 'ProximaNova-Regular',
     color: Color.BLACK,
     height: 35,
+    marginTop: 5,
     padding: 0,
   },
 });
