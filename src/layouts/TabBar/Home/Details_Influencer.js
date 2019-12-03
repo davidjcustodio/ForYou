@@ -251,7 +251,7 @@ const styles = StyleSheet.create({
     width: width - 40,
     flexDirection: 'row',
     borderBottomWidth: 1,
-    borderBottomColor: Color.TXTGRAY,
+    borderBottomColor: Color.TXT_GRY_COLOR,
     alignItems: 'center',
     marginTop: 10,
     marginBottom: 10,

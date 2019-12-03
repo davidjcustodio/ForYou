@@ -18,4 +18,6 @@ export const Color = {
   TXTGRAY: '#A1A1A1',
   OFFERING_TEXT: '#F8F8FA',
   YELLOWCOLOR: '#FFD100',
+  TXT_GRY_COLOR: '#BEBEBE',
+  SEPARATOR_COLOR: '#8D8D8D',
 };

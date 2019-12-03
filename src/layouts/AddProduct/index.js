@@ -193,13 +193,13 @@ const styles = StyleSheet.create({
   aboutUs: {
     flexDirection: 'row',
     width: width - 40,
-    borderBottomColor: Color.TXTGRAY,
-    borderBottomWidth: 0.5,
+    borderBottomColor: Color.TXT_GRY_COLOR,
+    borderBottomWidth: 1,
     alignSelf: 'center',
     alignItems: 'center',
     justifyContent: 'center',
     height: 40,
-    marginTop: 20,
+    marginTop: 10,
   },
   txtStyle: {
     width: width - 120,

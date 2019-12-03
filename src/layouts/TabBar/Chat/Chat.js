@@ -18,6 +18,7 @@ export default class Chat extends Component {
         message={'Hey whatsapp Steve!!.....'}
         name={'Andrew Glover'}
         time="2h ago"
+        isOnline={true}
         image="https://www.celebtattler.com/wp-content/uploads/2018/12/Jessica-Arantes.jpg"
       />
     );

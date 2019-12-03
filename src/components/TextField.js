@@ -24,7 +24,7 @@ class TextField extends React.Component {
           },
           this.props.mainStyle,
         ]}>
-        <Label ProximaNova_Semibold font17>
+        <Label color={'#1F1916'} ProximaNova_Semibold font14>
           {this.props.title}
         </Label>
         <View style={styles.inputMainV}>
@@ -34,11 +34,11 @@ class TextField extends React.Component {
                 width: this.props.width - 40,
                 fontFamily:
                   typeof this.props.value != undefined
-                    ? 'ProximaNova-Regular'
-                    : 'ProximaNova-Regular',
+                    ? 'ProximaNova-Semibold'
+                    : 'ProximaNova-Semibold',
 
                 fontSize:
-                  typeof this.props.value != 'undefined' ? fontX14 : fontX14,
+                  typeof this.props.value != 'undefined' ? fontX16 : fontX16,
               },
               styles.textInput,
               this.props.style,
@@ -86,8 +86,8 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingRight: 0,
     paddingLeft: 0,
-    borderBottomWidth: 0.5,
-    borderBottomColor: Color.TXTGRAY,
+    borderBottomWidth: 1,
+    borderBottomColor: Color.TXT_GRY_COLOR,
   },
   inputMainV: {
     flexDirection: 'row',
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   textInput: {
     color: Color.BLACK,
     height: 35,
-    marginTop: 5,
+    marginTop: 0,
     padding: 0,
   },
 });

@@ -110,8 +110,8 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
   imageStyle: {
-    width: 20,
-    height: 20,
+    width: 17,
+    height: 17,
   },
   listStyle: {
     marginLeft: 20,
@@ -123,6 +123,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     width: '100%',
-    borderBottomWidth: 0.5,
+    borderColor: Color.TXT_GRY_COLOR,
+    borderBottomWidth: 1,
   },
 });

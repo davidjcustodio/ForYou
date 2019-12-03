@@ -39,7 +39,7 @@ export default class JobListComp extends Component {
             style={[styles.commonViewStyle]}>
             <Image
               style={styles.imageStyle}
-              source={require('./../assets/Images/close.png')}
+              source={require('./../assets/Images/cancel.png')}
             />
           </TouchableOpacity>
         </View>
@@ -47,7 +47,7 @@ export default class JobListComp extends Component {
         <Label
           ml={15}
           mt={15}
-          mb={10}
+          mb={5}
           mr={15}
           color={Color.BLACK}
           font16
@@ -55,7 +55,7 @@ export default class JobListComp extends Component {
           {'Andrew.G is one of the top influencer'}
         </Label>
 
-        <Label ml={15} mb={15} mr={15} color={Color.BLACK} font16>
+        <Label ml={15} mb={15} mr={15} color={Color.BLACK} font14>
           {'Andrew is doing a great job’s pastly, we recommend to you!'}
         </Label>
       </Card>
@@ -72,8 +72,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     height: 50,
     alignItems: 'center',
-    borderBottomWidth: 0.5,
-    borderBottomColor: Color.INACTIVE,
+    borderBottomWidth: 1,
+    borderBottomColor: Color.TXT_GRY_COLOR,
   },
   commonViewStyle: {
     width: 50,

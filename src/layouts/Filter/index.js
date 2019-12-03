@@ -47,9 +47,6 @@ export default class index extends Component {
         <CustomNavigation {...this.props} isBack={true} title="Filter" />
         <ScrollView>
           <DropdownSelection data={data} title="Select a category" />
-          <DropdownSelection data={data} title="Platform" />
-          <DropdownSelection data={data} title="Sort by" />
-
           <TextField
             title="Location"
             mainStyle={{backgroundColor: Color.TRANSPARENT}}>
@@ -60,10 +57,24 @@ export default class index extends Component {
               />
             </TouchableOpacity>
           </TextField>
+          <DropdownSelection data={data} title="Platform" />
+          <DropdownSelection data={data} title="Sort by" />
 
-          <Label font14 ProximaNova_Semibold ml={20} mt={20}>
-            Price Per 1000 Views
-          </Label>
+          <View
+            style={{
+              flexDirection: 'row',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              marginTop: 20,
+              marginBottom: -10,
+            }}>
+            <Label color={'#1F1916'} font14 ProximaNova_Semibold ml={20}>
+              Price Per 1000 Views
+            </Label>
+            <Label font14 ProximaNova_Semibold mr={20}>
+              $5
+            </Label>
+          </View>
 
           <MultiSlider
             selectedStyle={{backgroundColor: Color.ORANGE}}

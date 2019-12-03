@@ -29,7 +29,12 @@ export default class Jobs_Influencer extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <CustomNavigation {...this.props} isSideMenu={true} title="Jobs" />
+        <CustomNavigation
+          {...this.props}
+          isSideMenu={true}
+          title="Jobs"
+          isPaypal={true}
+        />
 
         <SegmentControl
           values={['Offers', 'Current', 'Finish']}

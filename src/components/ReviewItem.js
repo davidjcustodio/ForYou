@@ -63,8 +63,8 @@ const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     paddingTop: 10,
-    borderBottomColor: Color.INACTIVE,
-    borderBottomWidth: 0.5,
+    borderBottomColor: Color.TXT_GRY_COLOR,
+    borderBottomWidth: 1,
   },
   leftImage: {
     height: 40,

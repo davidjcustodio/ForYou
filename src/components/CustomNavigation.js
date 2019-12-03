@@ -80,6 +80,38 @@ class CustomNavigation extends React.PureComponent {
                 {this.props.title}
               </Label>
             )}
+
+            {this.props.chatView && (
+              <View style={{flexDirection: 'row'}}>
+                <Image
+                  style={styles.topImageProfile}
+                  source={{
+                    uri: this.props.profile,
+                  }}
+                />
+
+                <View
+                  style={{
+                    marginLeft: 15,
+                  }}>
+                  <Label
+                    color={Color.BLACK}
+                    font16
+                    numberOfLines={1}
+                    ProximaNova_Semibold>
+                    {this.props.profileName}
+                  </Label>
+
+                  <Label
+                    color={Color.TXTGRAY}
+                    font12
+                    numberOfLines={1}
+                    ProximaNova_Regular>
+                    {this.props.isActive ? 'Active Now' : 'Not Active'}
+                  </Label>
+                </View>
+              </View>
+            )}
           </View>
 
           {/* Share and More */}
@@ -108,6 +140,25 @@ class CustomNavigation extends React.PureComponent {
                   },
                 ]}
                 source={require('./../assets/Images/share_white.png')}
+              />
+            )}
+
+            {this.props.isMore && (
+              <Image
+                style={[
+                  styles.moreMenu,
+                  {
+                    tintColor: this.props.tintColorNav,
+                  },
+                ]}
+                source={require('./../assets/Images/more.png')}
+              />
+            )}
+
+            {this.props.isPaypal && (
+              <Image
+                style={[styles.paypalStyle]}
+                source={require('./../assets/Images/paypal.png')}
               />
             )}
           </TouchableOpacity>
@@ -147,8 +198,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   imageBackStyle: {
-    width: 25,
-    height: 20,
+    width: 22,
+    height: 18,
   },
   sideMenuStyle: {
     width: 18,
@@ -161,6 +212,20 @@ const styles = StyleSheet.create({
   shareMenu: {
     width: 18,
     height: 19,
+  },
+  moreMenu: {
+    width: 20,
+    height: 4,
+  },
+  paypalStyle: {
+    width: 20,
+    height: 24,
+  },
+  topImageProfile: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    marginLeft: 10,
   },
 });
 

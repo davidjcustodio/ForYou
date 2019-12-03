@@ -18,29 +18,38 @@ import EmojiSelector, {Categories} from 'react-native-emoji-selector';
 import KButton from '../../components/KButton';
 
 const {width} = Dimensions.get('window');
+
+// {
+//   _id: 1,
+//     text: 'Accept',
+//       boldTitle: 'Street Fashion Offer You !!',
+//         createdAt: new Date(),
+//           user: {
+//     _id: 2,
+//       name: 'React Native',
+//         avatar: 'https://placeimg.com/140/140/any',
+//           },
 export default class index extends React.Component {
   state = {
-    messages: [],
+    messages: [
+      {
+        _id: 1,
+        text: 'Accept',
+        boldTitle: 'Street Fashion Offer You !!',
+        createdAt: new Date(),
+        user: {
+          _id: 2,
+          name: 'React Native',
+          avatar: 'https://placeimg.com/140/140/any',
+        },
+      },
+    ],
     isOpenEmoji: false,
     sendText: '',
   };
 
   componentWillMount() {
     this.setState({
-      messages: [
-        {
-          _id: 1,
-          text: 'Accept',
-          boldTitle: 'Street Fashion Offer You !!',
-          createdAt: new Date(),
-          user: {
-            _id: 2,
-            name: 'React Native',
-            avatar: 'https://placeimg.com/140/140/any',
-          },
-        },
-      ],
-
       alterMessage: false,
     });
   }
@@ -131,7 +140,7 @@ export default class index extends React.Component {
 
   renderBubble = props => {
     console.log('====================================');
-    // console.log(props.currentMessage);
+    console.log(props.currentMessage);
     console.log('====================================');
     return (
       <View
@@ -198,11 +207,20 @@ export default class index extends React.Component {
     console.disableYellowBox = true;
     return (
       <View style={styles.mainContainer}>
-        <CustomNavigation {...this.props} isBack={true} title="Chat Details" />
+        <CustomNavigation
+          {...this.props}
+          isBack={true}
+          chatView={true}
+          profile="https://www.celebtattler.com/wp-content/uploads/2018/12/Jessica-Arantes.jpg"
+          profileName="Andrew Glover"
+          isActive={false}
+          isMore={true}
+        />
         <GiftedChat
           renderBubble={this.renderBubble}
           messages={this.state.messages}
           minInputToolbarHeight={100}
+          renderAvatarOnTop={true}
           renderInputToolbar={this.renderBottomTextInput}
           renderFooter={() => {
             return (
@@ -220,6 +238,7 @@ export default class index extends React.Component {
             _id: 1,
           }}
         />
+
         {this.state.isOpenEmoji && (
           <SafeAreaView>
             <EmojiSelector

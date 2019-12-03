@@ -74,7 +74,7 @@ export default class index extends Component {
             </TouchableOpacity>
           </TextField>
 
-          <Label font16 ProximaNova_Semibold ml={20} mt={30}>
+          <Label color={'#1F1916'} font14 ProximaNova_Semibold ml={20} mt={30}>
             Bio / About Me
           </Label>
           <View style={styles.aboutUs}>
@@ -130,13 +130,13 @@ const styles = StyleSheet.create({
   aboutUs: {
     flexDirection: 'row',
     width: width - 40,
-    borderBottomColor: Color.TXTGRAY,
-    borderBottomWidth: 0.5,
+    borderBottomColor: Color.TXT_GRY_COLOR,
+    borderBottomWidth: 1,
     alignSelf: 'center',
     alignItems: 'center',
     justifyContent: 'center',
     height: 40,
-    marginTop: 20,
+    marginTop: 10,
   },
   txtStyle: {
     width: width - 120,

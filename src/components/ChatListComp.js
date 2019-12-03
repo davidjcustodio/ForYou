@@ -4,16 +4,19 @@ import Card from './Card';
 import Label from './Label';
 import {Color} from '../utils/color';
 const {width} = Dimensions.get('window');
-export default class ChatList extends Component {
+export default class ChatListComp extends Component {
   render() {
     return (
       <Card onPress={this.props.onPress} cardStyle={styles.cardStyle}>
-        <Image
-          style={styles.imageStyle}
-          source={{
-            uri: this.props.image,
-          }}
-        />
+        <View style={{alignItems: 'center', justifyContent: 'center'}}>
+          <Image
+            style={styles.imageStyle}
+            source={{
+              uri: this.props.image,
+            }}
+          />
+          {this.props.isOnline && <View style={styles.badgeStyle}></View>}
+        </View>
 
         <View style={{justifyContent: 'center'}}>
           <View style={styles.middleViewStyle}>
@@ -27,20 +30,20 @@ export default class ChatList extends Component {
             </Label>
 
             <Label
-              color={Color.BLACK}
+              color={Color.TXTGRAY}
               font14
               numberOfLines={1}
-              ProximaNova_Semibold
+              ProximaNova_Regular
               style={styles.timeStyle}>
               {this.props.time}
             </Label>
           </View>
 
           <Label
-            color={Color.BLACK}
+            color={Color.TXTGRAY}
             font14
             numberOfLines={1}
-            ProximaNova_Regular
+            ProximaNova_Semibold
             style={styles.messageStyle}>
             {this.props.message}
           </Label>
@@ -79,5 +82,16 @@ const styles = StyleSheet.create({
   },
   messageStyle: {
     width: width - 130,
+  },
+  badgeStyle: {
+    width: 14,
+    height: 14,
+    borderRadius: 7,
+    backgroundColor: Color.ORANGE,
+    borderWidth: 2,
+    borderColor: Color.BGLIGHT,
+    position: 'absolute',
+    right: 15,
+    bottom: 20,
   },
 });

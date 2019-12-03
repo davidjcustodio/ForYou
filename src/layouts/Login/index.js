@@ -11,6 +11,9 @@ import {Color} from '../../utils/color';
 import KButton from '../../components/KButton';
 import {fontX35} from './../../utils/theme';
 
+const FBSDK = require('react-native-fbsdk');
+const {LoginManager, GraphRequest, GraphRequestManager, AccessToken} = FBSDK;
+
 export default class index extends Component {
   // Constructor And LifeCycle ::
 
@@ -20,6 +23,56 @@ export default class index extends Component {
   };
   onTermsClick = () => {
     console.log('onTermsClick');
+  };
+
+  // Facebook Login ::
+
+  facebookLogin = () => {
+    //LoginManager.logInWithReadPermissions(['public_profile', 'email']).then(result => {
+    LoginManager.logInWithPermissions(['public_profile', 'email']).then(
+      result => {
+        {
+          console.log(result);
+        }
+        if (result.isCancelled) {
+          // alert('Login was cancelled');
+        } else {
+          AccessToken.getCurrentAccessToken().then(data => {
+            let accessToken = data.accessToken;
+            const responseInfoCallback = (error, result) => {
+              if (error) {
+                console.log(error);
+                alert('Error fetching data: ' + error.toString());
+              } else {
+                if (result != null) {
+                  console.log('redult data is', result);
+                  alert(JSON.stringify(result));
+                }
+              }
+            };
+
+            const infoRequest = new GraphRequest(
+              '/me',
+              {
+                accessToken: accessToken,
+                parameters: {
+                  fields: {
+                    string: 'email,name,first_name,middle_name,last_name',
+                  },
+                },
+              },
+              responseInfoCallback,
+            );
+
+            // Start the graph request.
+            new GraphRequestManager().addRequest(infoRequest).start();
+          });
+        }
+      },
+      function(error) {
+        alert('Login failed with error: ' + error);
+      },
+    );
   };
 
   // Render Main View ::
@@ -60,6 +113,7 @@ export default class index extends Component {
             title="Continue with email"
           />
           <KButton
+            onPress={this.facebookLogin}
             icon="facebook"
             buttonStyle={styles.marginTP}
             bgColor={Color.BLUECOLOR}
@@ -78,13 +132,20 @@ export default class index extends Component {
             </Label>
           </Label>
 
-          <Label mt={20} mb={20} style={styles.centerText} font14>
+          <Label
+            mt={30}
+            mb={20}
+            ml={20}
+            mr={20}
+            color={Color.TXT_GRY_COLOR}
+            style={styles.centerText}
+            font12>
             By signing up or logging in, you agree to our{' '}
             <Label
               onPress={this.onTermsClick}
               color={Color.ORANGE}
               textDecorationLine="underline"
-              font14
+              font12
               ProximaNova_Bold>
               Terms & Condition
             </Label>{' '}
@@ -92,7 +153,7 @@ export default class index extends Component {
             <Label
               color={Color.ORANGE}
               textDecorationLine="underline"
-              font14
+              font12
               ProximaNova_Bold>
               Privacy Policy.
             </Label>

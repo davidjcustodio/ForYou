@@ -186,7 +186,14 @@ export default class index extends Component {
   renderReady = () => {
     return (
       <View
-        style={[styles.detailMainView, {backgroundColor: Color.TRANSPARENT}]}>
+        style={[
+          styles.detailMainView,
+          {
+            backgroundColor: Color.TRANSPARENT,
+            alignItems: 'center',
+            justifyContent: 'center',
+          },
+        ]}>
         <Image
           style={styles.readyStyle}
           source={require('./../../assets/Images/readyOrder.png')}
@@ -194,14 +201,24 @@ export default class index extends Component {
 
         <Label
           style={{textAlign: 'center'}}
-          mt={30}
-          mb={20}
+          mt={40}
+          mb={30}
           ml={20}
           mr={20}
           font24
           ProximaNova_Bold>
           Your order is ready to advertise on instagram
         </Label>
+
+        <KButton
+          onPress={() => {
+            this.props.navigation.goBack();
+          }}
+          buttonStyle={{width: width - 120}}
+          bgColor={Color.ORANGE}
+          textColor={Color.WHITE}
+          title={checkOut[this.state.selectedIndex].btnTitle}
+        />
       </View>
     );
   };
@@ -320,21 +337,23 @@ export default class index extends Component {
           keyExtractor={(item, index) => index.toString()}
         />
         <View style={styles.heightView}>
-          <KButton
-            onPress={() => {
-              if (this.state.selectedIndex !== 3) {
-                this.setState({
-                  selectedIndex: this.state.selectedIndex + 1,
-                });
-              } else if (this.state.selectedIndex === 3) {
-                this.props.navigation.goBack();
-              }
-            }}
-            buttonStyle={{width: width - 40}}
-            bgColor={Color.ORANGE}
-            textColor={Color.WHITE}
-            title={checkOut[this.state.selectedIndex].btnTitle}
-          />
+          {this.state.selectedIndex !== 3 && (
+            <KButton
+              onPress={() => {
+                if (this.state.selectedIndex !== 3) {
+                  this.setState({
+                    selectedIndex: this.state.selectedIndex + 1,
+                  });
+                } else if (this.state.selectedIndex === 3) {
+                  this.props.navigation.goBack();
+                }
+              }}
+              buttonStyle={{width: width - 40}}
+              bgColor={Color.ORANGE}
+              textColor={Color.WHITE}
+              title={checkOut[this.state.selectedIndex].btnTitle}
+            />
+          )}
         </View>
       </View>
     );
@@ -432,6 +451,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     alignSelf: 'center',
+    marginTop: 5,
   },
   lineView: {
     height: 1,
@@ -440,8 +460,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
   imageProgressStyle: {
-    width: 15,
-    height: 15,
+    width: 20,
+    height: 20,
     backgroundColor: 'white',
   },
 });
