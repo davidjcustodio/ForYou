@@ -284,7 +284,16 @@ const TabsNavigator = createBottomTabNavigator(
           let image = !focused
             ? require('./src/assets/Images/home_inactive.png')
             : require('./src/assets/Images/home_active.png');
-          return <Image style={{width: 27, height: 24}} source={image} />;
+          return (
+            <Image
+              style={{
+                width: 27,
+                height: 24,
+                marginTop: 5,
+              }}
+              source={image}
+            />
+          );
         },
         tabBarLabel: ({focused}) => {
           let lblColor = !focused ? Color.INACTIVE : Color.ORANGE_LIGHT;
@@ -311,7 +320,12 @@ const TabsNavigator = createBottomTabNavigator(
           let image = !focused
             ? require('./src/assets/Images/search_inactive.png')
             : require('./src/assets/Images/search_active.png');
-          return <Image style={{width: 24, height: 24}} source={image} />;
+          return (
+            <Image
+              style={{width: 24, height: 24, marginTop: 5}}
+              source={image}
+            />
+          );
         },
         tabBarLabel: ({focused}) => {
           let lblColor = !focused ? Color.INACTIVE : Color.ORANGE_LIGHT;
@@ -404,7 +418,12 @@ const TabsNavigator = createBottomTabNavigator(
           let image = !focused
             ? require('./src/assets/Images/jobs_inactive.png')
             : require('./src/assets/Images/jobs_active.png');
-          return <Image style={{width: 28, height: 24}} source={image} />;
+          return (
+            <Image
+              style={{width: 28, height: 24, marginTop: 5}}
+              source={image}
+            />
+          );
         },
         tabBarLabel: ({focused}) => {
           let lblColor = !focused ? Color.INACTIVE : Color.ORANGE_LIGHT;
@@ -431,7 +450,12 @@ const TabsNavigator = createBottomTabNavigator(
             ? require('./src/assets/Images/chat_inactive.png')
             : require('./src/assets/Images/chat_active.png');
 
-          return <Image style={{width: 26, height: 24}} source={image} />;
+          return (
+            <Image
+              style={{width: 26, height: 24, marginTop: 5}}
+              source={image}
+            />
+          );
         },
         tabBarLabel: ({focused}) => {
           let lblColor = !focused ? Color.INACTIVE : Color.ORANGE_LIGHT;
@@ -451,7 +475,7 @@ const TabsNavigator = createBottomTabNavigator(
     tabBarOptions: {
       style: {
         backgroundColor: Color.WHITE,
-        height: 60,
+        height: 50,
         borderTopWidth: 0,
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
@@ -593,7 +617,7 @@ const TabsNavigatorInfluencer = createBottomTabNavigator(
     tabBarOptions: {
       style: {
         backgroundColor: Color.WHITE,
-        height: 60,
+        height: 50,
         borderTopWidth: 0,
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,

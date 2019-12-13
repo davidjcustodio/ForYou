@@ -50,7 +50,6 @@
 		E2F0228CB06E4FA4919EE301 /* ProximaNova-BlackIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = D1E23265D43E4DB2A2A8702C /* ProximaNova-BlackIt.otf */; };
 		E8236A475DC0456288E7B7E0 /* ProximaNovaCond-SemiboldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = FCD8F45A08A44D3F8C520DBF /* ProximaNovaCond-SemiboldIt.otf */; };
 		EFA4E59C83594348B05D51D4 /* ProximaNova-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5FC44B0353C44D8084BC3D96 /* ProximaNova-Bold.otf */; };
-		F149C3372376C3FA002B5436 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F149C3362376C3FA002B5436 /* Images-2.xcassets */; };
 		F2B4D8C0081D41CC9F1A4C37 /* ProximaNovaT-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 62527F63EEDF4BCFBC4639D2 /* ProximaNovaT-Thin.otf */; };
 		FBC487628A204926B473A14D /* ProximaNovaExCn-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9D388A21D8FA4024921EF3CD /* ProximaNovaExCn-Semibold.otf */; };
 		FC5ABF24A1EE443190792C61 /* ProximaNova-BoldIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7306409E0E024E2BB3D23781 /* ProximaNova-BoldIt.otf */; };
@@ -164,7 +163,6 @@
 		F13F31CD2375360500594D6A /* ProximaNovaExCn-ThinIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaExCn-ThinIt.otf"; sourceTree = "<group>"; };
 		F13F31CE2375360500594D6A /* ProximaNovaCond-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-Regular.otf"; sourceTree = "<group>"; };
 		F13F31CF2375360500594D6A /* ProximaNovaCond-BlackIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNovaCond-BlackIt.otf"; sourceTree = "<group>"; };
-		F149C3362376C3FA002B5436 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Images-2.xcassets"; path = "ForYou/Images-2.xcassets"; sourceTree = "<group>"; };
 		F5A15AA8719A47B4B8AF7FCB /* ProximaNovaExCn-LightIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ProximaNovaExCn-LightIt.otf"; path = "../src/assets/fonts/ProximaNovaExCn-LightIt.otf"; sourceTree = "<group>"; };
 		FCD8F45A08A44D3F8C520DBF /* ProximaNovaCond-SemiboldIt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "ProximaNovaCond-SemiboldIt.otf"; path = "../src/assets/fonts/ProximaNovaCond-SemiboldIt.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -208,7 +206,6 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				F149C3362376C3FA002B5436 /* Images-2.xcassets */,
 			);
 			name = ForYou;
 			sourceTree = "<group>";
@@ -385,6 +382,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8A9BBF8395872F0E53A0BABF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -405,7 +403,7 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 4EW89GEZZ7;
+						DevelopmentTeam = FUH8M8B4U6;
 					};
 				};
 			};
@@ -451,7 +449,6 @@
 				0E13A050B2B242E394730418 /* ProximaNovaCond-Black.otf in Resources */,
 				6104331753BD4B4A9D32283B /* ProximaNovaCond-BlackIt.otf in Resources */,
 				E0CB0A2847214198B943CDAE /* ProximaNovaCond-Bold.otf in Resources */,
-				F149C3372376C3FA002B5436 /* Images-2.xcassets in Resources */,
 				34255F330BAB4E3EA819F0C2 /* ProximaNovaCond-BoldIt.otf in Resources */,
 				386095F5CAD3452DABF5F0AA /* ProximaNovaCond-Extrabld.otf in Resources */,
 				E230010F3C36490291B1B994 /* ProximaNovaCond-ExtrabldIt.otf in Resources */,
@@ -497,6 +494,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		8A9BBF8395872F0E53A0BABF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForYou/Pods-ForYou-resources.sh",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForYou/Pods-ForYou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		E259552DFE2C017072F1F23E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -572,9 +587,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 4EW89GEZZ7;
+				DEVELOPMENT_TEAM = FUH8M8B4U6;
 				INFOPLIST_FILE = ForYou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -582,7 +597,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.blakeis.CoreSMS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.influencermarketplace.foryou;
 				PRODUCT_NAME = ForYou;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -594,8 +609,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4EW89GEZZ7;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = FUH8M8B4U6;
 				INFOPLIST_FILE = ForYou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -603,7 +618,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.blakeis.CoreSMS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.influencermarketplace.foryou;
 				PRODUCT_NAME = ForYou;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

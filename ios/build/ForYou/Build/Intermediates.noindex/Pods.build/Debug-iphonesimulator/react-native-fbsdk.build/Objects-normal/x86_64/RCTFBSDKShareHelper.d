@@ -1,0 +1,47 @@
+dependencies: \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/node_modules/react-native-fbsdk/ios/RCTFBSDK/share/RCTFBSDKShareHelper.m \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Target\ Support\ Files/react-native-fbsdk/react-native-fbsdk-prefix.pch \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/node_modules/react-native-fbsdk/ios/RCTFBSDK/share/RCTFBSDKShareHelper.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareKit.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKHashtag.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKCopying.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareAPI.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKAccessToken.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphObject.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphValueContainer.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKSharing.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKSharingContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKSharingValidation.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareConstants.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareLinkContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareMediaContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerActionButton.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerGenericTemplateElement.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerMediaTemplateContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerOpenGraphMusicTemplateContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareMessengerURLActionButton.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphAction.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareOpenGraphContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhoto.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKSharePhotoContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideo.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareVideoContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKAppGroupContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKAppInviteContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKGameRequestDialog.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKLiking.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKLikeObjectType.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKMessageDialog.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareButton.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Private/FBSDKCoreKit/FBSDKButton.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKSharingButton.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareCameraEffectContent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectArguments.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKCameraEffectTextures.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKSharingScheme.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialogMode.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKShareDialog.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKShareKit/FBSDKShareKit/FBSDKSendButton.h

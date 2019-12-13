@@ -11,4 +11,32 @@ dependencies: \
   /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
   /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
   /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTBundleURLProvider.h \
-  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTRootView.h
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/React-Core/React/RCTRootView.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKCoreKit.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAccessToken.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKCopying.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppEvents.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKApplicationDelegate.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKButton.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKConstants.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKGraphRequest.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKSettings.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKTestUsersManager.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKUtility.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppLink.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppLinkTarget.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppLinkNavigation.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppLinkResolving.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppLinkResolver.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppLinkReturnToRefererController.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppLinkReturnToRefererView.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKAppLinkUtility.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKMeasurementEvent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKMutableCopying.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKProfile.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKProfilePictureView.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKURL.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Headers/Public/FBSDKCoreKit/FBSDKWebViewAppLinkResolver.h

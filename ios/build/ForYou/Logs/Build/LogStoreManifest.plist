@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>9B973AC0-329E-4168-B001-F8F1AFE564D6</key>
+		<key>10146D43-0C39-4F53-AF7F-76BF30E185CB</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>9B973AC0-329E-4168-B001-F8F1AFE564D6.xcactivitylog</string>
+			<string>10146D43-0C39-4F53-AF7F-76BF30E185CB.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Building workspace ForYou with scheme ForYou and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>595454476.28016996</real>
+			<real>596746979.82281995</real>
 			<key>timeStoppedRecording</key>
-			<real>595455358.29948699</real>
+			<real>596747432.98880303</real>
 			<key>title</key>
 			<string>Building workspace ForYou with scheme ForYou and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>9B973AC0-329E-4168-B001-F8F1AFE564D6</string>
+			<string>10146D43-0C39-4F53-AF7F-76BF30E185CB</string>
 		</dict>
-		<key>E60E23BF-6B75-4CF3-86E0-59D8F1DBD53D</key>
+		<key>35A56C6D-8167-47FF-88D3-26CAEA8DEE4D</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E60E23BF-6B75-4CF3-86E0-59D8F1DBD53D.xcactivitylog</string>
+			<string>35A56C6D-8167-47FF-88D3-26CAEA8DEE4D.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +66,13 @@
 			<key>signature</key>
 			<string>Building workspace ForYou with scheme ForYou and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>595751569.99402106</real>
+			<real>597084471.201334</real>
 			<key>timeStoppedRecording</key>
-			<real>595751582.65741098</real>
+			<real>597084493.92632997</real>
 			<key>title</key>
 			<string>Building workspace ForYou with scheme ForYou and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>E60E23BF-6B75-4CF3-86E0-59D8F1DBD53D</string>
+			<string>35A56C6D-8167-47FF-88D3-26CAEA8DEE4D</string>
 		</dict>
 	</dict>
 </dict>

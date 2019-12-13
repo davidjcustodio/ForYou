@@ -1,0 +1,37 @@
+dependencies: \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.m \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/Target\ Support\ Files/FBSDKCoreKit/FBSDKCoreKit-prefix.pch \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/FBSDKSettings+Internal.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKSettings.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenCache.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKAccessToken.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCopying.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestConnection.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenCaching.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/Internal/TokenCaching/FBSDKAccessTokenExpirer.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEvents+Internal.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/FBSDKAppEvents.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppEvents/Internal/FBSDKAppEventsUtility.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKApplicationDelegate.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKButton.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKConstants.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequest.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphRequestDataAttachment.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKTestUsersManager.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKUtility.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLink.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkTarget.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkNavigation.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkResolving.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkResolver.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererController.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkReturnToRefererView.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKAppLinkUtility.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKGraphErrorRecoveryProcessor.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMeasurementEvent.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKMutableCopying.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfile.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKProfilePictureView.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/FBSDKURL.h \
+  /Volumes/Workspace/2019/20191105-David-Foryou/ForYou-react-native/ios/Pods/FBSDKCoreKit/FBSDKCoreKit/FBSDKCoreKit/AppLink/FBSDKWebViewAppLinkResolver.h
